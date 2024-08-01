@@ -1,0 +1,48 @@
+15:24:59.222 [main] INFO  c.p.C.CsvAndThirdPartyApiApplication - Starting CsvAndThirdPartyApiApplication using Java 17.0.10 with PID 3604 (/Users/priyankashaktawat/Downloads/CsvAndThirdPartyApi/target/classes started by priyankashaktawat in /Users/priyankashaktawat/Downloads/CsvAndThirdPartyApi)
+15:24:59.225 [main] INFO  c.p.C.CsvAndThirdPartyApiApplication - No active profile set, falling back to 1 default profile: "default"
+15:24:59.481 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productService': Unsatisfied dependency expressed through field 'restTemplate': No qualifying bean of type 'org.springframework.web.client.RestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+15:24:59.485 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+15:24:59.498 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field restTemplate in com.projects.CsvAndThirdPartyApi.service.ProductService required a bean of type 'org.springframework.web.client.RestTemplate' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.web.client.RestTemplate' in your configuration.
+
+15:25:16.369 [main] INFO  c.p.C.CsvAndThirdPartyApiApplication - Starting CsvAndThirdPartyApiApplication using Java 17.0.10 with PID 3626 (/Users/priyankashaktawat/Downloads/CsvAndThirdPartyApi/target/classes started by priyankashaktawat in /Users/priyankashaktawat/Downloads/CsvAndThirdPartyApi)
+15:25:16.370 [main] INFO  c.p.C.CsvAndThirdPartyApiApplication - No active profile set, falling back to 1 default profile: "default"
+15:25:16.643 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productService': Unsatisfied dependency expressed through field 'restTemplate': No qualifying bean of type 'org.springframework.web.client.RestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+15:25:16.647 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+15:25:16.657 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field restTemplate in com.projects.CsvAndThirdPartyApi.service.ProductService required a bean of type 'org.springframework.web.client.RestTemplate' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.web.client.RestTemplate' in your configuration.
+
